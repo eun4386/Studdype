@@ -18,7 +18,7 @@ h1{
 	margin-left:46.5%;
 	color:white;
 }
-div{
+#header{
 	background:#D0A9F5;
 }
 #line{
@@ -47,12 +47,26 @@ h3{
 	margin-top:-1%;
 	
 }
-b{
-	margin-left:40%;
-	margin-top:25%;
+#name{
+	margin-left:42%;
+	margin-top:3%;
 	margin-bottom:0.5%;
 	color:#F5A9F2;
 	font-weight:bold;
+}
+
+
+#idtitle{
+	margin-top:1%;
+	margin-bottom:0.5%;
+	margin-left:42%;
+	color:#F5A9F2;
+	
+}
+#nametitle{
+	margin-top:-3%;
+	width:280px;
+	height:30px;
 }
 
 input{
@@ -77,12 +91,18 @@ input{
 	width:330px;
 	height:50px;
 	font-weight:bold;
+	margin-top:15%;
 	margin-left:43%;
 }
 select{
 	margin-left:43%;
 	width:330px;
 	height:30px;
+}
+#signtitle{
+	margin-left:5%;
+	margin-top:-2%;
+	color:#DA81F5;
 }
 </style>
 </head>
@@ -114,30 +134,26 @@ select{
 	<img src="" id="pic">
 	<br><br>	
 		<h3>--Please be our colleague--</h3>
-		
 		<br><h2>정보를 입력해주세요</h2>
-<!--  
-	<b id="nametitle">이름</b><br><input type="text" id="name"  style="border: 2px solid #DA81F5;"placeholder="이름을 입력해주세요">
-	<b id="nametitle">아이디</b><br><input type="text" id="name"  style="border: 2px solid #DA81F5;"placeholder="아이디를 입력해주세요">
-	<button id="chk"style="border: 2px solid #8000FF;">중복확인</button>
-	<b id="nametitle">비밀번호 </b><br><input type="text" id="name"  style="border: 2px solid #DA81F5;"placeholder="비밀번호를 입력해주세요">
-	<b id="nametitle">비밀번호 확인</b><br><input type="text" id="name"  style="border: 2px solid #DA81F5;"placeholder="비밀번호를 다시 한번 입력해주세요">
-	<b id="nametitle">이메일 </b><br><input type="text" id="userMail"  style="border: 2px solid #DA81F5;"placeholder="이메일을 입력해주세요">
-	<input type="button"  id="mail"value="인증번호 전송 " onclick="sendemail();">  
-	<b id="nametitle">주민등록번호 </b><br><input type="text" id="userMail"  style="border: 2px solid #DA81F5;"placeholder="주민등록번호를 입력해주세요">
-	<b id="nametitle">성별 </b><br>
-	<select style="border: 2px solid #DA81F5;">
-		<option value="male" >
-			남자
-		</option>
-		<option value="female">
-			여자
-		</option>
-	</select>
-	<br>
-	<br>
-	-->
-
+	<div id="signtitle">
+		<form action="signupform.do" method="POST">
+			<h3 id="name">이름</h3>
+				<input type="text" id="nametitle" style="border: 2px solid #DA81F5;"placeholder="이름을 입력해주세요"><br>
+			<h3 id="idtitle">아이디</h3>
+				<input type="text" id="nametitle" style="border:2px solid #DA81F5;" placeholder="아이디를 입력해주세요">	
+			
+		
+		
+		
+		
+		
+		</form>
+	
+	
+	
+	
+	
+	</div>
 	
 	
 	
