@@ -93,7 +93,8 @@ public class MemberController {
 		res=memberBiz.idchk(dto.getMem_id());
 		if(res!=null) { //중복아닌 아이디일경우 
 			 isUsed=0;
-		}else {
+		}
+		else{
 			isUsed=1;
 		}
 		return isUsed;
